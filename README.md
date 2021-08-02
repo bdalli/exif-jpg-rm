@@ -1,12 +1,12 @@
 # exif-jpg-rm
-POC using aws s3 notifications and a python lambda 
-Assumes user understands how to set terraform aws provider credentials.
+POC AWS S3 notifications and a python Lambda.\ 
+Assumes user understands how to set terraform aws provider credentials\.
  
 
-Application:
-Python code using https://pypi.org/project/exif/ 
-Package located at package/exif-py-packages.zip containing code and dependencies
-Code located python/exif_jpg_rm.py -- see comments 
+Application:\
+Python code with https://pypi.org/project/exif/ \
+Package located at package/exif-py-packages.zip containing code and dependencies\
+Code located python/exif_jpg_rm.py -- see comments \
 
 InfraStructure:
 S3 buckets created using  https://registry.terraform.io/modules/terraform-aws-modules/s3-bucket/aws/latest?tab=inputs
