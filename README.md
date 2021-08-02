@@ -19,7 +19,7 @@ Create a packaging process with tests \
 Move variables to lambda env vars
 
 Infrastructure: \
-S3 write a bucket policy restricting type to jpg only -- requires a list of user principles \
+S3 write a bucket policy restricting type to jpg only -- Principals could be a Federated Source e.g SAML \
 Add lifecyle, access logging and tags to buckets. For object management, monitoring and grouping/billing \
 Set up some Cloudwatch metrics and tags for Lambda. To track execution and grouping/billing
 
