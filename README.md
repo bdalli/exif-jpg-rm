@@ -23,6 +23,6 @@ S3 write a bucket policy restricting type to jpg only -- Principals could be a F
 Add lifecyle, access logging and tags to buckets. For object management, monitoring and grouping/billing \
 Set up some Cloudwatch metrics and tags for Lambda. To track execution and grouping/billing
 
-Simple Integration test: \
+Simple test: \
 aws s3 cp photo/paris_sklyine_1900s.jpg  s3://jpeg-bucket-a/photo/paris_sklyine_1900s.jpg \
 aws s3 ls s3://jpeg-bucket-b/photo/
